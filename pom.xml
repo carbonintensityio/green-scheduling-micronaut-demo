@@ -13,8 +13,7 @@
         <maven.compiler.release>17</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <micronaut.version>4.10.25</micronaut.version>
-        <!-- Unreleased extension, built locally from the feature/micronaut branch of carbonintensityio/green-scheduler -->
-        <green-scheduler.version>999-SNAPSHOT</green-scheduler.version>
+        <green-scheduler.version>0.8.6</green-scheduler.version>
         <exec.mainClass>io.carbonintensity.demo.micronaut.Application</exec.mainClass>
         <micronaut.test.resources.version>2.9.0</micronaut.test.resources.version>
     </properties>
