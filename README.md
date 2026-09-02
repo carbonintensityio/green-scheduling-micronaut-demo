@@ -24,13 +24,6 @@ Before running the demo, ensure you have the following:
 
 ## Notes
 
-- Depends on `io.carbonintensity:green-scheduler-micronaut`, which as of writing is **unreleased** — it only exists on the `feature/micronaut` branch of [carbonintensityio/green-scheduler](https://github.com/carbonintensityio/green-scheduler). To build this demo, first build and install that branch locally:
-  ```
-  git clone https://github.com/carbonintensityio/green-scheduler.git
-  cd green-scheduler
-  git checkout feature/micronaut
-  ./mvnw -pl core,extensions/micronaut/processor,extensions/micronaut/runtime -am install -DskipTests
-  ```
-  This installs `green-scheduler-core`, `green-scheduler-micronaut-processor`, and `green-scheduler-micronaut` as `999-SNAPSHOT` into your local Maven repository.
+- Depends on `io.carbonintensity:green-scheduler-micronaut` v0.8.6, published on Maven Central. This extension is still **experimental** (canary-tier in green-scheduler's own compatibility matrix) — see [green-scheduler's README](https://github.com/carbonintensityio/green-scheduler#usage) for details.
 - Built and tested against Micronaut 4.10.25.
 - There is no HTTP-facing extension included; this demo only exercises the scheduler.
